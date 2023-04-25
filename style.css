@@ -36,5 +36,100 @@ body .imgLogo {
 body .navbar-toggler {
   color: #590D22;
 }
+body .nav-link {
+  font-family: "Satisfy", cursive;
+  color: #FFCCD5;
+  font-size: 30px;
+}
+body .inicio {
+  margin: 15px;
+  padding: 15pxs;
+  border: 7px solid #590D22;
+}
+body h1 {
+  font-family: "Alkatra", cursive;
+  color: #590D22;
+  font-size: 35px;
+  text-align: center;
+  animation: shakeX;
+  animation-duration: 6s;
+}
+body h3 {
+  font-family: "Satisfy", cursive;
+  color: #FFB3C1;
+  font-size: 25px;
+  text-align: center;
+  padding: 20px;
+}
+body .img1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  text-align: center;
+  animation: pulse;
+  animation-duration: 8s;
+}
+body p {
+  font-family: "M PLUS 1p", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  padding: 20px;
+}
+body h2 {
+  font-family: "Satisfy", cursive;
+  font-size: 30px;
+  text-align: center;
+  color: #FF8FA3;
+  padding: 20px;
+}
+body .img2 {
+  width: 50%;
+  padding: 25px;
+  margin: auto;
+  display: block;
+  filter: sepia(100%);
+}
+body .img2:hover {
+  transform: scale(1.05);
+  transition: all 0.9s;
+  filter: sepia(0%);
+}
+body .pApren {
+  margin: 15px;
+  padding: 15pxs;
+  border: 7px solid #590D22;
+}
+body h2 {
+  font-family: "Satisfy", cursive;
+  font-size: 30px;
+  text-align: center;
+  color: #FF8FA3;
+  padding: 20px;
+}
+body h2 li {
+  padding: 20px;
+  text-align: left;
+  font-family: "M PLUS 1p", sans-serif;
+  font-size: 25px;
+  color: #590D22;
+}
+body footer {
+  background-color: #C9184A;
+  text-align: center;
+}
+body footer p {
+  font-family: "Satisfy", cursive;
+  color: #FFB3C1;
+  font-size: 25px;
+}
+body footer i {
+  font-size: 35px;
+  letter-spacing: 30px;
+  color: #FF758F;
+}
+body footer i:hover {
+  color: #590D22;
+}
 
 /*# sourceMappingURL=style.css.map */

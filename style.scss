@@ -53,4 +53,123 @@ body{
     .navbar-toggler{
         color: #590D22;
     }
+
+    .nav-link{
+        font-family: $fuenteotroTitulo;
+        color: #FFCCD5;
+        font-size: 30px; 
+    }
+
+    .inicio{
+        margin: 15px;
+        padding: 15pxs;
+        border: 7px solid #590D22;
+    }
+
+    h1{
+        font-family: $fuenteTitulo1;
+        color: #590D22;
+        font-size: 35px;
+        text-align:center;
+        animation: shakeX;
+        animation-duration: 6s;
+    }
+
+    h3{
+        font-family: $fuenteotroTitulo;
+        color: #FFB3C1;
+        font-size: 25px;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .img1{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;     
+        text-align: center;
+        animation: pulse;
+        animation-duration: 8s;
+    }
+    
+    p{
+        font-family: $fuenteParrafo;
+        font-size: 20px;
+        text-align: center;
+        padding: 20px;
+    }
+
+    h2{
+        font-family: $fuenteotroTitulo;
+        font-size: 30px;
+        text-align: center;
+        color: #FF8FA3;
+        padding: 20px;
+    }
+
+    .img2{
+        width: 50%;
+        padding: 25px;
+        margin: auto;
+        display: block;
+        filter: sepia(100%);
+    }
+
+    .img2:hover{
+        transform: scale(1.05);
+        transition: all 0.9s;
+        filter: sepia(0%);
+    }
+
+    .pApren{
+        margin: 15px;
+        padding: 15pxs;
+        border: 7px solid #590D22;
+    }
+
+    h2{
+        font-family: $fuenteotroTitulo;
+        font-size: 30px;
+        text-align: center;
+        color: #FF8FA3;
+        padding: 20px;
+
+        li{
+            padding: 20px;
+            text-align: left;
+            font-family: $fuenteParrafo;
+            font-size: 25px;
+            color: #590D22;
+        }
+    }
+
+    footer{
+        background-color: #C9184A;
+        text-align: center;
+
+        p {
+            font-family: $fuenteotroTitulo;
+            color: #FFB3C1;
+            font-size: 25px;
+        }
+
+        i {
+            font-size: 35px;
+            letter-spacing: 30px;
+            color: #FF758F;
+        }
+
+        i:hover {
+            color: #590D22;
+        }
+    }
+}
+
+
+@media screen and (min-width: 6600px) and (max-width: 1024px) {
+    
+    // HTML inicial
+
+    
 }
