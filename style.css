@@ -131,6 +131,74 @@ body footer i:hover {
   color: #590D22;
 }
 
+body .inicioA {
+  background-color: #800F2F;
+  padding: 40px;
+}
+body .inicioA .tituloAp {
+  font-family: "Alkatra", cursive;
+  font-size: 40px;
+  text-align: center;
+}
+body .inicioA .tituloA {
+  font-family: "Satisfy", cursive;
+  font-size: 30px;
+  color: #FF8FA3;
+  text-align: left;
+}
+body .inicioA .flechaA {
+  color: #FFCCD5;
+  height: 50px;
+  width: 20px;
+}
+body .parte1Aprende {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+body .parte1Aprende .img3 {
+  width: 100%;
+  padding: auto;
+  position: relative;
+}
+body .parte1Aprende .pApren {
+  font-family: "M PLUS 1p", sans-serif;
+  font-size: 17px;
+  color: black;
+  text-align: center;
+}
+body .parte2Aprende {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, qfr));
+}
+body .parte2Aprende .video1 {
+  width: 100%;
+  height: auto;
+  float: right;
+}
+body .parte2Aprende li {
+  font-size: 25px;
+  text-align: center;
+  font-size: "M PLUS 1p", sans-serif;
+}
+body .grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-rows: 30px, 30px, 30px, 30px, 30px;
+}
+body .grid-container .mito {
+  font-family: "Satisfy", cursive;
+  font-size: 20px;
+}
+body .grid-container p {
+  font-family: "M PLUS 1p", sans-serif;
+  font-size: 15px;
+}
+body footer .pieAprende {
+  font-family: "M PLUS 1p", sans-serif;
+  font-size: 20px;
+}
+
 @media screen and (min-width: 600px) and (max-width: 1024px) {
   body .navBar {
     padding: 35px;
@@ -183,6 +251,40 @@ body footer i:hover {
     font-size: 45px;
     letter-spacing: 15px;
     padding: 35px;
+  }
+  body .inicioA {
+    padding: 50px;
+  }
+  body .inicioA .tituloAp {
+    font-size: 60px;
+  }
+  body .inicioA .tituloA {
+    font-size: 40px;
+  }
+  body .parte1Aprende .img3 {
+    width: 110%;
+    padding: 25px;
+    position: static;
+  }
+  body .parte1Aprende .pApren {
+    font-size: 25px;
+    animation: pulse;
+    animation-duration: 5s;
+  }
+  body .parte2Aprende {
+    padding: 30px;
+  }
+  body .parte2Aprende li {
+    font-size: 30px;
+  }
+  body .grid-container .mito {
+    font-size: 30px;
+  }
+  body .grid-container p {
+    font-size: 20px;
+  }
+  body footer .pieAprende {
+    font-size: 25px;
   }
 }
 @media screen and (min-width: 1024px) and (max-width: 2000px) {
@@ -241,6 +343,35 @@ body footer i:hover {
     font-size: 55px;
     letter-spacing: 15px;
     padding: 35px;
+  }
+  body .inicioA .tituloAp {
+    font-size: 60px;
+  }
+  body .inicioA .tituloA {
+    font-size: 50px;
+    text-align: right;
+  }
+  body .parte1Aprende .pApren {
+    font-size: 30px;
+  }
+  body .parte2Aprende .video1 {
+    margin: 0 auto;
+    width: 900px;
+    display: block;
+  }
+  body .parte2Aprende li {
+    padding: auto;
+    font-size: 30px;
+    text-align: justify;
+  }
+  body .grid-container .mito {
+    font-size: 35px;
+  }
+  body .grid-container p {
+    font-size: 25px;
+  }
+  body footer .pieAprende {
+    font-size: 30px;
   }
 }
 
