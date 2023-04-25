@@ -10,14 +10,13 @@ body {
   background-color: #FF4D6D;
 }
 body .navBar {
+  padding: 35px;
   background-color: #C9184A;
   color: #FFF0F3;
-  font-family: "M PLUS 1p", sans-serif;
-  font-size: 30px;
 }
-body .navBar-brand {
+body .navbar-brand {
   color: #FF8FA3;
-  font-size: 20px;
+  font-size: 25px;
   text-align: center;
 }
 body .logoTitulo {
@@ -130,6 +129,119 @@ body footer i {
 }
 body footer i:hover {
   color: #590D22;
+}
+
+@media screen and (min-width: 600px) and (max-width: 1024px) {
+  body .navBar {
+    padding: 35px;
+  }
+  body .navbar-brand {
+    font-size: 40px;
+  }
+  body .logoTitulo {
+    font-size: 50px;
+  }
+  body .imgLogo {
+    height: 80px;
+    width: 100px;
+    border-radius: 40%;
+  }
+  body .nav-link {
+    font-size: 40px;
+  }
+  body .inicio {
+    margin: 25px;
+    padding: 25pxs;
+    border: 7px solid #590D22;
+  }
+  body h1 {
+    font-size: 60px;
+  }
+  body h3 {
+    font-size: 40px;
+    padding: 35px;
+  }
+  body p {
+    font-size: 25px;
+    padding: 30px;
+  }
+  body .pApren {
+    margin: 20px;
+    padding: 20pxs;
+  }
+  body h2 {
+    font-size: 40px;
+    padding: 30px;
+  }
+  body h2 li {
+    font-size: 30px;
+  }
+  body footer p {
+    font-size: 40px;
+  }
+  body footer i {
+    font-size: 45px;
+    letter-spacing: 15px;
+    padding: 35px;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 2000px) {
+  body .navBar {
+    padding: 20px;
+  }
+  body .navbar-brand {
+    font-size: 60px;
+  }
+  body .logoTitulo {
+    font-size: 70px;
+  }
+  body .imgLogo {
+    height: 100px;
+    width: 150px;
+  }
+  body .nav-link {
+    font-size: 50px;
+  }
+  body .inicio {
+    margin: 30px;
+    padding: 30pxs;
+  }
+  body h1 {
+    font-size: 100px;
+  }
+  body h3 {
+    font-size: 60px;
+    padding: 40px;
+  }
+  body .img1 {
+    width: 60%;
+  }
+  body p {
+    font-size: 35px;
+    padding: 40px;
+  }
+  body .img2 {
+    width: 30%;
+  }
+  body .pApren {
+    margin: 20px;
+    padding: 20pxs;
+  }
+  body h2 {
+    font-size: 60px;
+    padding: 40px;
+  }
+  body h2 li {
+    font-size: 40px;
+  }
+  body footer p {
+    font-size: 60px;
+  }
+  body footer i {
+    font-size: 55px;
+    letter-spacing: 15px;
+    padding: 35px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
