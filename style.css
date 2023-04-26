@@ -283,6 +283,51 @@ body footer .pieDulce {
   font-size: 35px;
 }
 
+body .recetaO {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+body .recetaO .cardOtro {
+  min-height: 400px;
+  width: 100%;
+  background-color: #800F2F;
+  border: 10px solid #FFB3C1;
+  animation: slideInRight;
+  animation-duration: 2s;
+}
+body .recetaO .card__Img9 {
+  background-image: url(./asset/img/img9.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 150px;
+}
+body .recetaO .card__Img10 {
+  background-image: url(./asset/img/img10.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 150px;
+}
+body .recetaO .card__Title {
+  font-family: "Satisfy", cursive;
+  text-align: center;
+  font-size: 35px;
+  color: #FFCCD5;
+}
+body .recetaO h4 {
+  font-family: "Satisfy", cursive;
+  color: #FFCCD5;
+  font-size: 25px;
+}
+body .recetaO h4 li {
+  font-family: "M PLUS 1p", sans-serif;
+  color: black;
+  font-size: 20px;
+}
+body footer .pieDulce {
+  font-size: 35px;
+}
+
 @media screen and (min-width: 600px) and (max-width: 1024px) {
   body .navBar {
     padding: 35px;
@@ -411,6 +456,29 @@ body footer .pieDulce {
   }
   body .recetaS li {
     font-size: 30px;
+  }
+  body footer .pieDulce {
+    font-size: 40px;
+  }
+  body .recetaO {
+    padding: 40px;
+  }
+  body .recetaO .card__Img9 {
+    width: 100%;
+    height: 400px;
+  }
+  body .recetaO .card__Img10 {
+    width: 100%;
+    height: 400px;
+  }
+  body .recetaO .card__Title {
+    font-size: 45px;
+  }
+  body .recetaO h4 {
+    font-size: 35px;
+  }
+  body .recetaO h4 li {
+    font-size: 25px;
   }
   body footer .pieDulce {
     font-size: 40px;
@@ -560,6 +628,32 @@ body footer .pieDulce {
   }
   body footer .pieDulce {
     font-size: 60px;
+  }
+  body .recetaO {
+    padding: 50px;
+  }
+  body .recetaO .card__Img9 {
+    width: 100%;
+    height: 700px;
+  }
+  body .recetaO .card__Img10 {
+    width: 100%;
+    height: 700px;
+  }
+  body .recetaO .card__Title {
+    font-size: 80px;
+  }
+  body .recetaO h4 {
+    font-size: 60px;
+  }
+  body .recetaO h4 li {
+    font-size: 35px;
+  }
+  body footer .pieDulce {
+    font-size: 50px;
+  }
+  body footer .subir {
+    color: #FF8FA3;
   }
 }
 
