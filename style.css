@@ -26,6 +26,7 @@ body .logoTitulo {
   text-shadow: 0 0 7px;
   animation: heartBeat;
   animation-duration: 5s;
+  overflow: hidden;
 }
 body .imgLogo {
   height: 60px;
@@ -52,6 +53,7 @@ body h1 {
   text-align: center;
   animation: shakeX;
   animation-duration: 6s;
+  overflow: hidden;
 }
 body h3 {
   font-family: "Satisfy", cursive;
@@ -68,6 +70,7 @@ body .img1 {
   text-align: center;
   animation: pulse;
   animation-duration: 8s;
+  overflow: hidden;
 }
 body p {
   font-family: "M PLUS 1p", sans-serif;
@@ -86,6 +89,7 @@ body .img2 {
   width: 50%;
   padding: 25px;
   margin: auto;
+  overflow: hidden;
   display: block;
   filter: sepia(100%);
 }
@@ -211,6 +215,7 @@ body .recetaD .card1 {
   border: 8px solid #FFB3C1;
   animation: zoomIn;
   animation-duration: 5s;
+  overflow: hidden;
 }
 body .recetaD .card__Img1 {
   background-image: url(./asset/img/img4.jpg);
